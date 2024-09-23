@@ -1,0 +1,120 @@
+@import url("https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+ul,
+ol {
+  list-style: none;
+}
+
+body {
+  font-family: "League Spartan", sans-serif;
+}
+
+.container {
+  max-width: 1190px;
+  margin: 0 auto;
+  padding: 0 40px;
+}
+
+.primary-btn {
+  background: transparent;
+  font-family: inherit;
+  font-weight: 600;
+  font-size: 17px;
+  line-height: 94%;
+  letter-spacing: 0.15em;
+  color: #fff;
+  padding: 25px 55px;
+  border: 2px solid rgba(255, 255, 255, 0.5960784314);
+  -webkit-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+  cursor: pointer;
+}
+.primary-btn:hover {
+  color: #111;
+  background: #fff;
+}
+
+.header {
+  background-image: url("/images/header-bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 100vh;
+}
+.header .container {
+  padding-top: 65px;
+}
+.header .container .logo {
+  margin-bottom: 153px;
+  display: inline-block;
+}
+.header .container .header-content {
+  max-width: 507px;
+}
+.header .container .header-content h2 {
+  font-weight: 300;
+  font-size: 80px;
+  line-height: 100%;
+  letter-spacing: -0.01em;
+  color: #fff;
+  margin-bottom: 10px;
+}
+.header .container .header-content p {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 150%;
+  color: #fff;
+  margin-bottom: 40px;
+}
+
+.reservation-section {
+  background-image: url("/images/reservation-bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.reservation-section .container {
+  padding: 95px 40px 93px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.reservation-section .container h2 {
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 100%;
+  letter-spacing: -0.01em;
+  color: #fff;
+}
+
+.footer {
+  background: #111111;
+}
+.footer .container {
+  padding: 78px 40px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.footer .container ul li {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 200%;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: #fff;
+}
